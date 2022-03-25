@@ -26,8 +26,8 @@ class homeFragment : Fragment() {
         binding.buttonHomeToInside.setOnClickListener{
             //Toast.makeText(context, "preuba", Toast.LENGTH_SHORT).show()
             //navController.navigate(R.id.action_homeFragment_to_insideHome)
-            //val directions=HomeFragmentDirections.actionHomeFragmentToInsideHome()
-            //navController.navigate(directions)
+            val directions=HomeFragmentDirections.actionHomeFragmentToInsideHome()
+            navController.navigate(directions)
         }
 
         return binding.root

@@ -25,4 +25,9 @@
             app:argType="string"
             android:defaultValue="aaa" />
     </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.nbd.navbar.profileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>
